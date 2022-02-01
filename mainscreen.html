@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Secret website</title>
+        <script src="mainscreen.js"></script>
+        <link rel="stylesheet" href="mainscreen.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body class="bg bg-primary" onload="text()">
+        <center>
+            <h1>Secret Website</h1>
+                <div class="bgwhite">
+                    <div class="col-lg-10 col-md-10">
+                        <textarea class="form-control" id="textarea"></textarea>
+                    </div>
+                    <div class="col-lg-2 col-md-2" id="f">
+                        <button id="logout" class="btn" onclick="logout()"><div class="glyphicon glyphicon-log-out"></div> Log out</button>
+                        <br>
+                        <br>
+                        <button id="savebtn" class="btn" onclick="save()"><div class="glyphicon glyphicon-save"></div> Save</button>
+                        <br>
+                        <br>
+                        <button id="presentbtn" class="btn" onclick="present()"><div class="glyphicon glyphicon-align-justify"></div> Present</button>
+                        <br>
+                        <br>
+                        <button id="readonlybtn" class="btn" onclick="readonly()"><div class="glyphicon glyphicon-book"></div> Read only</button>
+                        <br>
+                        <br>
+                        <button id="editbtn" class="btn" onclick="edit()" disabled><div class="glyphicon glyphicon-pencil"></div> Edit</button>
+                    </div>
+                </div>
+                <br>
+        </center>
+    </body>
+</html>

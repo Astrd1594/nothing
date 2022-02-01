@@ -1,0 +1,94 @@
+.bgwhite{
+    background-color: white !important;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 98%;
+    height: 500px;
+}
+.form-control{
+    border-color: white !important;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+#f{
+    margin-top: 50px;
+}
+button{
+    width: 225px !important;
+    height: 55px !important;
+    font-size: 20px !important;
+    border-width: 1px !important;
+    border-color:rgb(209, 209, 219) !important;
+    transition: all 0.1s ease-in-out;
+}
+#savebtn:hover{
+    color: rgb(69, 187, 138) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+#presentbtn:hover{
+    color: rgb(224, 116, 192) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+#editbtn:hover{
+    color: rgb(230, 176, 91) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+#readonlybtn:hover{
+    color: rgb(102, 165, 216) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+#savebtn{
+    color: rgb(29, 133, 90) !important;
+}
+#presentbtn{
+    color: rgb(160, 58, 117) !important;
+}
+#editbtn{
+    color: rgb(160, 121, 58) !important;
+}
+#readonlybtn{
+    color: rgb(70, 94, 138) !important;
+}
+.alert-warning{
+    width: 40%;
+}
+#logout{
+    color: rgb(180, 81, 81) !important;
+}
+#logout:hover{
+    color: rgb(230, 94, 94) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
+textarea{
+    cursor: pointer !important;
+    border-color: rgb(209, 209, 219) !important;
+    border-radius: 5px;
+    padding: 7px;
+    padding-top: 5px;
+    color: darkslategrey !important;
+    box-shadow: 0 0px 0px rgb(0, 0, 0) !important;
+    width: 100% !important;
+    height: 450px !important;
+    font-weight: bold !important;
+}
+textarea:hover{
+    border-color: rgb(49, 49, 49) !important;
+    box-shadow: 0, 0, 0 !important;
+}
+textarea:active{
+    border-width: 0px !important;
+    box-shadow: 0, 0, 0 !important;
+}
+#alertg{
+    width: 20% !important;
+}
+.v{
+    color: rgb(12, 93, 104) !important;
+    width: 6% !important;
+}
+.v:hover{
+    color: rgb(46, 128, 143) !important;
+    background-color: rgb(246, 246, 246) !important;
+}
